@@ -1,1 +1,1 @@
-It is my grandmother's blog
+It is my grandmother's blog with authorization
