@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>fail_form</title>
+    <link rel = "stylesheet" href = "{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <center>
+      <h1>Полис с таким номером не обнаружен</h1>
+      <p>Попробуйте изменить данные</p>
+    </center>
+    <a href="{% url 'home' %}" class="check_href">OK</a>
+
+  </body>
+</html>

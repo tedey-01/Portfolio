@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Проверка услуг медицинского страхования</title>
+    <link rel = "stylesheet" href = "{% static 'css/styles.css' %}" />
+  </head>
+  <body>
+    <h1 class="header" >Проверка услуг медицинского страхования</h1>
+
+    <form  name = 'whole_form' action="{% url 'answer' %}">
+      <div class = "radio_box">
+          <lable>
+            <input class = "radio" type="radio" name="insur" value="OWD">OWD
+            <div class="radio-control male"></div>
+          </lable>
+          <label>
+            <input class = "radio" type="radio" name="insur" value="CWD">CWD
+            <div class="radio-control female"></div>
+          </label>
+      </div>
+      <div class="first_input_box">
+        <div class="snils_box">
+          <input class="snils" type="text" name="snils" placeholder="Введите номер полиса" value="{{ resp_form_key.snils }}">
+        </div>
+        <div class = "company_box">
+          <input class="company" type="text" list="company_line" name="company_line" placeholder="Введите название страховой компании", value="{{ resp_form_key.company_line }}">
+          <datalist id = "company_line">
+            {% for company in company_key %}
+              <option value = "{{ company }}" >
+            {% endfor %}
+          </datalist>
+        </div>
+      </div>
+
+      <center>
+        <div class="services_box">
+          <p>Выберите медицнские услуги</p>
+          <input class= "service" type="text" list ="service_line" name="service_line" placeholder = "Выберите медицнские услуги">
+          <button class="add_btn" type = "submit" name = "add">Добавить</button>
+
+          <datalist id = "service_line">
+            {% for service in service_key %}
+              <option value = "{{ service }}" >
+            {% endfor %}
+          </datalist>
+        </div>
+      </center>
+
+      <div class = "chosen">
+        {% if unavailable %}
+          {% for service in available %}
+          <div>
+            <button class= "chosen_green">{{service}}</button>
+          </div>
+          {% endfor %}
+        {% endif %}
+
+        {% if unavailable  %}
+          {% for service in unavailable %}
+          <div>
+            <button class="chosen_red">{{ service }}</button>
+          </div>
+          {% endfor %}
+        {% endif %}
+
+        {% if unknown %}
+          {% for service in unknown %}
+          <div>
+            <button class="chosen_yellow">{{ service }}</button>
+          </div>
+          {% endfor %}
+        {% endif %}
+
+      </div>
+    </form>
+    <a href="{% url 'home' %}" class="check_href">Новый запрос</a>
+
+  </body>
+</html>
