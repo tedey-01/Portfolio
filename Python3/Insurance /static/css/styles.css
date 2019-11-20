@@ -1,0 +1,108 @@
+.header {
+  text-align: center;
+  top: 20px
+}
+
+.radio_box{
+  display:flex;
+  justify-content:center;
+  margin : 10px 10px
+}
+
+.radio{
+  margin: 20px 20px
+}
+
+.snils{
+    width: 436px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #868686;
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.company{
+  width: 363px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #868686;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.service{
+  width: 823px;
+  height: 35px;
+  background: #FFFFFF;
+  border: 1px solid #868686;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.check_btn{
+  width: 165px;
+  height: 38px;
+  margin: 50px 45%;
+
+  border: 1px solid #ED462F;
+  box-sizing: border-box;
+  border-radius: 50px;
+}
+
+.first_input_box{
+  display:flex;
+  justify-content:space-around;
+  margin: 50px
+}
+
+.add_btn{
+  width: 165px;
+  height: 38px;
+
+  border: 1px solid #ED462F;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.services_box{
+  margin: 100px auto;
+}
+
+.chosen{
+  column-count: 2
+}
+
+.chosen_red{
+  width: auto;
+  height: 40px;
+  font-style: oblique;
+  color: #c55;
+}
+
+.chosen_green{
+  width: auto;
+  height: 40px;
+  font-style: oblique;
+  color: green;
+}
+
+.chosen_yellow{
+  width: auto;
+  height: 40px;
+  font-style: oblique;
+  color: #a29939;
+}
+
+.check_href{
+  text-decoration: none;
+  display: inline-block;
+  color: #ED462F;
+  padding: 10px 35px;
+  margin: 50px 44%;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  background-color: #567;
+
+}
