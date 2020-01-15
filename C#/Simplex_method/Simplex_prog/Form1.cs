@@ -29,24 +29,7 @@ namespace Simplex_prog
 
 
             CalculationForm calculationForm = new CalculationForm(m, n);
-            //DataGridView dgv = new DataGridView();
-            //dgv.Name = "dvg";
-            //
-            //for (int i = 1; i <= n; i++)
-            //{
-            //    dgv.Columns.Add(Convert.ToString(i), Convert.ToString(i));
-            //}
-            //dgv.Rows.Add(m - 1);
-            //dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            ////dgv.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            //dgv.Height = 22 * (m + 1);
-            //
-            //var x = calculationForm.Location.X + (dgv.Width) / 2;
-            //var y = calculationForm.Location.Y + (calculationForm.Height - dgv.Height) / 2;
-            //dgv.Location = new Point(x, y);
-            //
-            //
-            //calculationForm.Controls.Add(dgv);
+           
             calculationForm.Show();
         }
 
