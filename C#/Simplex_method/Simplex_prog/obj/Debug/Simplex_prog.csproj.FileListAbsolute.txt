@@ -1,0 +1,48 @@
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.exe.config
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.exe
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.pdb
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.Properties.Resources.resources
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csproj.GenerateResource.cache
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.exe
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.pdb
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.CalculationForm.resources
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.StartForm.resources
+C:\Users\Alan\Desktop\Хинкали2\Visual Studio 2019 C++\Аждер\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.Result.resources
+D:\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.exe.config
+D:\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.exe
+D:\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.pdb
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csprojAssemblyReference.cache
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.CalculationForm.resources
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.StartForm.resources
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.Properties.Resources.resources
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.Result.resources
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csproj.GenerateResource.cache
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.exe
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.pdb
+D:\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csproj.CoreCompileInputs.cache
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.exe.config
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.exe
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\bin\Debug\Simplex_prog.pdb
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csprojAssemblyReference.cache
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.CalculationForm.resources
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.StartForm.resources
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.Properties.Resources.resources
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.Result.resources
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csproj.GenerateResource.cache
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.csproj.CoreCompileInputs.cache
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.exe
+C:\Users\Mi\Desktop\Simplex_prog\Simplex_prog\obj\Debug\Simplex_prog.pdb
+E:\Simplex_prog_1\Simplex_prog\bin\Debug\Simplex_prog.exe.config
+E:\Simplex_prog_1\Simplex_prog\bin\Debug\Simplex_prog.exe
+E:\Simplex_prog_1\Simplex_prog\bin\Debug\Simplex_prog.pdb
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.csprojResolveAssemblyReference.cache
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.CalculationForm.resources
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.StartForm.resources
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.Properties.Resources.resources
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.Result.resources
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.csproj.GenerateResource.cache
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.csproj.CoreCompileInputs.cache
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.exe
+E:\Simplex_prog_1\Simplex_prog\obj\Debug\Simplex_prog.pdb
