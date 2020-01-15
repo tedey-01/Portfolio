@@ -319,15 +319,6 @@ namespace Simplex_prog
                 Console.WriteLine("P[" + (i + 1) + "]=  " +P[i] );
             }
             //----------------------------------------------------------------------------
-            //Console.WriteLine("--------------------------------------------");
-            //for (int i = 0; i < m + 1; i++)
-            //{
-            //    for (int j = 0; j < n + 1; j++)
-            //    {
-            //        Console.Write(table[i,j]+" ");
-            //    }
-            //    Console.WriteLine("\n");
-            //}
 
             string answer = "";
             float F = 0;
@@ -357,14 +348,8 @@ namespace Simplex_prog
 				} 
             }
             answer += "\nF =    " + Convert.ToString(F);
-           // MessageBox.Show(
-           //     answer,
-           //     "Результат",
-           //     MessageBoxButtons.YesNo,
-           //     MessageBoxIcon.Information,
-           //     MessageBoxDefaultButton.Button1,
-           //     MessageBoxOptions.DefaultDesktopOnly);
-           //
+
+
             Console.WriteLine("F= "+F);
 
             this.Hide();
