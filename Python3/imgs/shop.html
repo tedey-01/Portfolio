@@ -7,16 +7,16 @@
       font-family: Arial, sans-serif;
     }
     .container {
-      max-width: 300px;
+      max-width: 1200px;
       margin: 0 auto;
-      padding: 4px;
+      padding: 20px;
     }
     .product-card {
       border: 1px solid #ccc;
-      margin: 3px;
-      padding: 2px;
+      margin: 15px;
+      padding: 10px;
       display: inline-block;
-      width: calc(33% - 6px);
+      width: calc(33% - 30px);
       box-sizing: border-box;
     }
     .product-card img {
@@ -24,8 +24,15 @@
     }
     .cart {
       border: 1px solid #ccc;
-      padding: 4px;
-      margin: 4px 0;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    /* Медиа-запрос для мобильной версии */
+    @media (max-width: 768px) {
+      .product-card {
+        width: calc(50% - 30px); /* Ширина карточек изменена */
+        margin: 10px; /* Отступы изменены */
+      }
     }
   </style>
 </head>
@@ -54,7 +61,7 @@
       <p>Цена: $120</p>
       <button>Добавить в корзину</button>
     </div>
-
+    
     <div class="product-card">
       <img src="img4.webp" alt="Товар 3">
       <h2>Туфли</h2>
