@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Интернет-магазин обуви</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .product-card {
+      border: 1px solid #ccc;
+      margin: 15px;
+      padding: 10px;
+      display: inline-block;
+      width: calc(33% - 30px);
+      box-sizing: border-box;
+    }
+    .product-card img {
+      max-width: 100%;
+    }
+    .cart {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Каталог обуви</h1>
+
+    <div class="product-card">
+      <img src="product1.jpg" alt="Товар 1">
+      <h2>Ботинки</h2>
+      <p>Цена: $100</p>
+      <button>Добавить в корзину</button>
+    </div>
+
+    <div class="product-card">
+      <img src="product2.jpg" alt="Товар 2">
+      <h2>Кеды</h2>
+      <p>Цена: $70</p>
+      <button>Добавить в корзину</button>
+    </div>
+
+    <div class="product-card">
+      <img src="product3.jpg" alt="Товар 3">
+      <h2>Туфли</h2>
+      <p>Цена: $120</p>
+      <button>Добавить в корзину</button>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="cart">
+      <h2>Ваша корзина</h2>
+      <!-- Здесь будут отображаться выбранные товары -->
+      <p>Корзина пуста</p>
+      <button>Оформить заказ</button>
+    </div>
+  </div>
+
+</body>
+</html>
