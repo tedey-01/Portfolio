@@ -68,9 +68,25 @@
       <h2>Ваша корзина</h2>
       <!-- Здесь будут отображаться выбранные товары -->
       <p>Корзина пуста</p>
-      <button>Оформить заказ</button>
+      <button id="order">Оформить заказ</button>
     </div>
   </div>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <script>
+    let tg = window.window.Telegram.WebApp;
+    let order = document.getElementById("order");
+
+    order.addEventListener("click", () => {
+      let data = {
+        product_name = "air johrdan",
+        product_price = 100,
+      }
+
+      tg.sendData(JSON.stringify(data));
+      tg.close()
+    });
+
+  </script>
 
 </body>
 </html>
