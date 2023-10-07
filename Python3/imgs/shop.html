@@ -27,6 +27,13 @@
       padding: 20px;
       margin: 20px 0;
     }
+    /* Медиа-запрос для мобильной версии */
+    @media (max-width: 768px) {
+      .product-card {
+        width: calc(50% - 30px); /* Ширина карточек изменена */
+        margin: 10px; /* Отступы изменены */
+      }
+    }
   </style>
 </head>
 <body>
@@ -54,7 +61,7 @@
       <p>Цена: $120</p>
       <button>Добавить в корзину</button>
     </div>
-
+    
     <div class="product-card">
       <img src="img4.webp" alt="Товар 3">
       <h2>Туфли</h2>
